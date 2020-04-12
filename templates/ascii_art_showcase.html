@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>showcase</title>
+</head>
+<body>
+{% for art in arts %}
+    <div class="art" align="center">
+        <div class="art-title"><h3>{{art.title}}</h3></div>
+        <pre class="art-body">{{art.art}}</pre>
+    </div>
+    <hr>
+{% endfor %}
+</body>
+</html>
